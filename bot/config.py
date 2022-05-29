@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "5453428114:AAF_n7CiHGU_XJ-0EaVPJoW1y3htx9fxwOs"
+    APP_ID = "12309587"
+    API_HASH = "4948707247d1e186439b5aa71e967c8d"
+    DATABASE_URL = "postgres://vxsxrrgtbbzwtm:8e59e38da820ad4cd05a62ba2b867c61c5b0ceb0ac0fbacd350e298edd4c1253@ec2-52-204-195-41.compute-1.amazonaws.com:5432/dde9volhssbcec"
+    SUDO_USERS = "1768050370 5118110868" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "109606656442993187809"
+    G_DRIVE_CLIENT_SECRET = "https://www.googleapis.com/robot/v1/metadata/x509/mfc-fno0z1ubk54ng0oax76medv5o3%40akpowerx.iam.gserviceaccount.com"
+    SUPPORT_CHAT_LINK = "https://t.me/beybladechattamil"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**[Hi there](https://youtu.be/sTQkY0UE20c) {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
 
     HELP_MSG = [
         ".",
@@ -38,8 +38,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-         
-        "**Join Channel @lkhitech**"
+        "**Developed by @ANIMETAMIZH**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
